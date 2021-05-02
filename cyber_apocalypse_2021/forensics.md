@@ -81,9 +81,9 @@ _the_new_meta}
 CHTB{maldocs_are_the_new_meta}
 ```
 
-**EDIT:**
+*EDIT:*
 
-Later on, I realised the encoding was actually UTF 16-LE(1200), which is commonly used for encoding powershell payloads. 
+Later on, I realised the encoding was actually UTF-16LE(1200), which is commonly used for encoding powershell payloads. 
 ---
 
 ## Oldest trick in the book
