@@ -36,14 +36,14 @@ CHTB{pH1sHiNg_w0_m4cr0s???}
 
 * So we get a docm file. 
 * I start by unzippping the word document 
-* We get a docm
-* Unzip it again and see folders
+* We get more directories
+
 
 ![](https://i.imgur.com/Q7ZRb7J.jpg)
 
 **PART 1**
 
-* First thing I tried to do after looking around was 
+* First thing I tried to do after checking contents was:
 
 ```bash
 strings vbaProject.bin
@@ -81,6 +81,9 @@ _the_new_meta}
 CHTB{maldocs_are_the_new_meta}
 ```
 
+**EDIT:**
+
+Later on, I realised the encoding was actually UTF 16-LE(1200), which is commonly used for encoding powershell payloads. 
 ---
 
 ## Oldest trick in the book
